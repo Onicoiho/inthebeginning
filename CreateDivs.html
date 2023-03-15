@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name='robots' content='index,follow'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel='shortcut icon' type='image/ico' href='/favicon.ico'>
+<link rel="stylesheet" href="style.css"/>
+<title></title>
+
+<style>
+
+* { margin: 0;padding: 0;}
+
+body { 
+line-height: 1.6;
+font-weight: 400;
+font-family: Arial;
+color: #222; }
+
+.container{
+position: relative;
+width: 100%;
+background-color: orange; 
+box-sizing: border-box;
+border: 0px solid blue;
+}
+
+.row{
+display: flex;
+/*align-items: center;*/
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.columns{
+float: left;
+box-sizing: border-box;
+border: 0px solid red;
+}
+
+.one-column{width: 100%;}
+.two-column{width: 50%;}
+.three-column{width: 33%;}        
+.four-column{width: 25%;}        
+.five-column{width: 20%;}        
+
+@media only screen and (max-width: 600px) {
+one-column,.two-column,.three-column,.four-column,.five-column{ width: 100%; }
+}
+</style>
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="columns two-column">    
+        </div>
+        
+        <div class="columns two-column">
+            </div>
+        
+</div>
+</div>
+    
+    
+    
+</body>
+</html>
